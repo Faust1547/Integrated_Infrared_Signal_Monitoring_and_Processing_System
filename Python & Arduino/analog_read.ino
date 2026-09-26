@@ -1,4 +1,3 @@
-
 const int SENSOR_PIN = A0;
 const unsigned long SAMPLE_INTERVAL_US = 10000;
 unsigned long nextSampleUs = 0;
