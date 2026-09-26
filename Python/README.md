@@ -23,7 +23,7 @@ Python 端需要用到以下函式庫：
 * flask
 
 以下為程式執行步驟：
-1. 將 analog_read.ino 上傳至 Arduino UNO，確認其 Serial Baud Rate 與 Python 程式設置一致。
+1. 將 analog_read.ino 上傳至 Arduino UNO，確認其 Serial Baud Rate 與 Python 程式設置一致為 115200。
 2. 將 Arduino 連接至電腦，確認實際使用的 COM Port。
 3. 透過 cmd 執行 `python pulse_plot.py`，並在 PyQt5 GUI 中選擇 COM Port，設定取樣頻率與 FIR 長度，再按下開始。
 4. 如需網頁監控，在執行程式的電腦上開啟 `http://localhost:8000`。
