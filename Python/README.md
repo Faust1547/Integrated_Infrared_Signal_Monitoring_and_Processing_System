@@ -16,11 +16,9 @@
 
  ## Execution
 Python 端需要用到以下函式庫：
-* numpy
-* matplotlib
-* pyserial
-* PyQt5
-* flask
+``` bash
+pip install numpy matplotlib pyserial PyQt5 flask
+```
 
 以下為程式執行步驟：
 1. 將 analog_read.ino 上傳至 Arduino UNO，確認其 Serial Baud Rate 與 Python 程式設置一致為 115200。
