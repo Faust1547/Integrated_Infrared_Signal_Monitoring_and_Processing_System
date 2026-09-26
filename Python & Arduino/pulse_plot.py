@@ -257,7 +257,7 @@ class MainWindow(QMainWindow):
         self.N = DEFAULT_N
         self.h_lp = np.ones(self.N) / self.N
         
-        #self.ser = None   
+        self.ser = None   
         self.fft_freq = None      # GUI目前 FFT 的頻率
         self.fft_mag = None       # GUI目前 FFT 的幅度
         self.fft_bpm = None       # GUI最近一次算出的bpm
