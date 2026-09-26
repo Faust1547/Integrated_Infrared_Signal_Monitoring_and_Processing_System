@@ -1,7 +1,7 @@
 # Python & Arduino
 
 ## Overview
-本專案使用到 Python 與 Arduino 兩種程式進行設計。Arduino 端負責控制硬體讀取紅外線感測器的類比訊號，並且將資料傳送至 Python 端使用；Python 端負責收集訊號、FIR 濾波、FFT 轉換與計算頻率、相位響應，並且透過 PyQt 製作 GUI 介面方便展示與調整參數，以及透過 Flask 啟用網頁介面，並且可實時更新波形資料。
+本專案結合 Arduino 與 Python 建立即時紅外線訊號監測系統。Arduino 負責擷取感測器的類比訊號，並透過 Serial 傳送至 Python 端，進行 FIR 濾波、FFT 頻率分析及濾波器特性計算。系統使用 PyQt5 建立圖形化操作介面，並透過 Flask 提供網頁監控功能，定期更新訊號波形與頻譜。
 
 ## System Functions
 |Function|Description|
