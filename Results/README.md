@@ -1,16 +1,21 @@
-# Five-Stage Pipelined Processor
+## GUI Interface
+使用 PyQt 製作。
 
-## Overview
-本專案延伸課堂實作之五級 Pipeline CPU，將原先的 IM 與 DM 暫存器替換為實際 256 × 32 SRAM，並於後續合成進一步導入 Design for Testability (DFT) 與 Scan Chain，使內部暫存器具備較佳的 Controllability 與 Observability，並透過 ATPG 進行 Stuck-at Fault 測試與 Fault Coverage 評估。
+### Page 1 - Raw Signal & Filtered Signal
+<img width="5002" height="2878" alt="001" src="https://github.com/user-attachments/assets/196af09f-7228-4452-9465-7f32fc287703" />
 
-## Architecture
-五階 Pipelined CPU 架構，整合 SRAM、Hazard Detection、Forwarding 與 Scan-based DFT。
- 
-<img width="4113" height="1188" alt="image" src="https://github.com/user-attachments/assets/ada8b590-36e3-47a3-8c45-23de0a7b966b" />
+### Page 2 - FFT & FIR Magnitude Response & FIR Phase Response
+<img width="4756" height="2878" alt="002" src="https://github.com/user-attachments/assets/34c042aa-cc7b-428c-95b7-5527d3edcd41" />
+
+### Page 3 - Z-Plane Analysis
+<img width="500" height="500" alt="0004" src="https://github.com/user-attachments/assets/2dc6ca65-dfa8-4222-945f-a579f0c46e75" />
+
+### Web Page - Real-time Monitoring 
+<img width="400" height="500" alt="003" src="https://github.com/user-attachments/assets/78ac8662-4377-41fd-9112-6af8dbeb2f2f" />
+
+## Demo Video
+展示實際測量與操作畫面
 
 
+https://github.com/user-attachments/assets/9c649ebe-3a3d-4d72-91b5-3ce25e5ef087
 
-## Results
-1. Post-sim 執行結果。
-2. Automatic test pattern generation 執行結果。
-3. TSMC 90nm 1P9M 實體設計之時序、面積、功耗紀錄，以及晶片實現結果與 Partition 表示。
