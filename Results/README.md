@@ -15,3 +15,7 @@
 
 ## Demo Video
 展示實際測量與操作畫面
+
+
+https://github.com/user-attachments/assets/9c649ebe-3a3d-4d72-91b5-3ce25e5ef087
+
