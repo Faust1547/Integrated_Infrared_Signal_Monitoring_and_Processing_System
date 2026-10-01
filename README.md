@@ -11,3 +11,5 @@
 ## Results
 1. 操作畫面說明
 2. Demo 影片
+
+_Portfolio version prepared by TSAI An-Hao, September 29, 2026._
